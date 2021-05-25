@@ -6,7 +6,7 @@ import { NavBar, Footer, Loading } from "./components";
 import { Home, Profile, ExternalApi, ContactInfo } from "./views";
 import ProtectedRoute from "./auth/protected-route";
 
-import "./app.css";
+import "./app.scss";
 
 const App = () => {
   const { isLoading } = useAuth0();
