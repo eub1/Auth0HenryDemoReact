@@ -1,8 +1,18 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 
 const HomeContent = () => (
   <div className="next-steps">
     <h2 className="my-5 text-center">What can I do next?</h2>
+
+    <NavLink
+      to="/contact-info"
+      exact
+      className="nav-link"
+      activeClassName="router-link-exact-active"
+    >
+      Contact me!
+    </NavLink>
 
     <div className="row">
       <div className="col-md-5 mb-4">
