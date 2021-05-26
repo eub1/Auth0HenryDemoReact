@@ -30,9 +30,9 @@ const Footer = () => (
           </a>
         </h6>
         <p>
-          Auth0 supports social providers as Facebook, Twitter, Instagram and
-          100+, Enterprise providers as Microsoft Office 365, Google Apps,
-          Azure, and more. You can also use any OAuth2 Authorization Server.
+          Identity providers like GitHub and LinkedIn were configured to get 
+          users information and be able to log them in and 
+          create a user in the database (Auth0 Server) 
         </p>
       </div>
 
@@ -50,10 +50,9 @@ const Footer = () => (
           </a>
         </h6>
         <p>
-          Add an extra layer of security by enabling Multi-factor
-          Authentication, requiring your users to provide more than one piece of
-          identifying information. Push notifications, authenticator apps, SMS,
-          and DUO Security are supported.
+          Multi-factor Authentication adds an extra layer of security, 
+          requiring users to provide more than one piece of identifying information.
+          In this case, it´s captcha or selecting pattern pictures.
         </p>
       </div>
     </div>
@@ -92,9 +91,8 @@ const Footer = () => (
         </h6>
         <p>
           Rules are JavaScript functions that execute when a user authenticates
-          to your application. They run once the authentication process is
-          complete, and you can use them to customize and extend Auth0's
-          capabilities.
+          to an application. They run once the authentication process is
+          complete, in this case set the user information to provide location and identify roles.
         </p>
       </div>
     </div>

@@ -14,7 +14,7 @@ const ProjectCard = ({project}) => (
       </p>
     </div>
     <div className="cardPicture">
-        <img src={project.picture[0]} className="projectPic" alt="product"></img>
+        <img src={project.picture[0]} className="projectPic" ></img>
     </div>
     <a href={project.repo} rel="stylesheet" target='_blank'>Go to repo</a> 
   </div>

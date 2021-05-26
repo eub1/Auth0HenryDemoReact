@@ -11,7 +11,7 @@ const HomeContent = () => (
     <div className='aboutMe'>
       <h1>Hi, I'm Pía Cherni</h1>
       <p>Full Stack Developer, passionate about solving problems, learning new technologies and mastering the ones I already know: JavaScript, React, Redux, HTML5, CSS, NodeJs, Express, Sequelize, and PostgreSQL as a database. Currently adding Typescript to the list and assisting a group of Full-Stack development students as a coding tutor at Henry.
-        I studied Architecture for four years which gave me a set of skills in design, abstract thinking, understanding of user experience and team work!</p>
+        I studied Architecture which gave me a set of skills in design, abstract thinking, understanding of user experience and team work!</p>
       <NavLink
         to="/contact-info"
         exact
