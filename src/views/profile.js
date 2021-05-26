@@ -1,4 +1,5 @@
 import React from "react";
+import '../sass/_profile.scss'
 
 import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
 // import { Loading } from "../components";
@@ -11,10 +12,12 @@ const Profile = () => {
   //   )
   // }
   console.log(user)
-  const { name, picture, email } = user;
+  const { name, picture, email, nickname } = user;
+  const country = user["https://example.com/country"];
+  const city = user["https://example.com/city"]
 
   return (
-    <div>
+    <div className='profile'>
       <div className="row align-items-center profile-header">
         <div className="col-md-2 mb-3">
           <img
@@ -24,8 +27,9 @@ const Profile = () => {
           />
         </div>
         <div className="col-md text-center text-md-left">
-          <h2>{name}</h2>
+          <h2>{nickname}</h2>
           <p className="lead text-muted">{email}</p>
+          <p className="lead text-muted">{city},{' '+country}</p>
         </div>
       </div>
       <div className="row">

@@ -1,0 +1,42 @@
+.contactContainer{
+    h2{
+        margin-top: 10%;
+        margin-left: 20%;
+        color: violet;
+    }
+    .pleaseLogin{
+        padding: 30px;
+        margin-bottom: 60px;
+        color: red;
+        background-color: rgba(241, 163, 241, 0.507);
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+
+}
+.message{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    .infoMessage{
+        display: flex;
+        flex-direction: column;
+        a{
+            color:blueviolet;
+            &:hover{
+                text-decoration: none;
+                color: blue
+            }
+        }
+        img{
+            float: right;
+            max-width: 250px;
+            max-height: 250px;
+            border-radius: 160px;
+        }
+        div{
+            margin-left: 35%;
+
+        }
+    }
+}

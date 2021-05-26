@@ -2,10 +2,21 @@ import React from "react";
 import '../sass/_footer.scss'
 
 const Footer = () => (
-  <footer id='footer' >
+  <footer >
+    <h2>Authentication & Authorization</h2>
+    <p className="lead">
+      This is a sample application that demonstrates an authentication flow for
+      an SPA, using{" "} 
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://auth0.com/docs/quickstart/spa/react"
+      >
+        React
+      </a>
+      {' '}and:
+    </p>
     
-    <h2 className="my-5 text-center">Authentication & Authorization</h2>
-
     <div className="row">
       <div className="col-md-5 mb-4">
         <h6 className="mb-3">
@@ -15,7 +26,7 @@ const Footer = () => (
             href="https://auth0.com/docs/connections"
           >
             <i className="fas fa-link mr-2" />
-            Configure other identity providers
+            Configurating other identity providers
           </a>
         </h6>
         <p>
@@ -35,7 +46,7 @@ const Footer = () => (
             href="https://auth0.com/docs/multifactor-authentication"
           >
             <i className="fas fa-link mr-2" />
-            Enable Multi-Factor Authentication
+            Enabling Multi-Factor Authentication
           </a>
         </h6>
         <p>
@@ -76,7 +87,7 @@ const Footer = () => (
             href="https://auth0.com/docs/rules"
           >
             <i className="fas fa-link mr-2" />
-            Learn About Rules
+            Rules
           </a>
         </h6>
         <p>
@@ -87,17 +98,7 @@ const Footer = () => (
         </p>
       </div>
     </div>
-    <p className="lead">
-      This is a sample application that demonstrates an authentication flow for
-      an SPA, using{" "}
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://auth0.com/docs/quickstart/spa/react"
-      >
-        React
-      </a>
-    </p>
+
 
     
   </footer>

@@ -1,15 +1,16 @@
 import {NavLink} from "react-router-dom";
 import React from "react";
+import '../sass/_main-nav.scss'
 
 const MainNav = () => (
-  <div className="navbar-nav mr-auto">
+  <div id='nav' className="navbar-nav mr-auto">
     <NavLink
       to="/"
       exact
       className="nav-link"
       activeClassName="router-link-exact-active"
     >
-      Home
+      About Me
     </NavLink>
     <NavLink
       to="/profile"

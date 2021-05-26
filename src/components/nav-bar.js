@@ -3,16 +3,18 @@ import React from "react";
 import MainNav from "./main-nav";
 import AuthNav from "./auth-nav";
 
+import '../sass/_nav-bar.scss'
+
 const NavBar = () => {
   return (
     <div className="nav-container mb-3">
-      <nav className="navbar navbar-expand-md navbar-light bg-light">
+      <div id='navBar' className="navbar navbar-expand navbar-light ">
         <div className="container">
-          <div className="navbar-brand logo" />
+          {/* <div className="navbar-brand logo" /> */}
           <MainNav />
           <AuthNav />
         </div>
-      </nav>
+      </div>
     </div>
   );
 };

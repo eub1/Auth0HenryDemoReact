@@ -5,7 +5,7 @@ module.exports = [
       description:
         'Proyecto sobre comidas',
       picture: [
-        'https://dogbreeds.wiki/uploads/s/shiba-inu-photo-3.jpg',
+        'https://raw.githubusercontent.com/piacz/piacz/main/DemoPics/2021-05-04%20(23).png',
       ],
       repo: 'https://github.com/piacz/FoodieApp',
     },
@@ -15,7 +15,7 @@ module.exports = [
       description:
         'Proyecto sobre comidas',
       picture: [
-        'https://dogbreeds.wiki/uploads/s/shiba-inu-photo-3.jpg',
+        'https://raw.githubusercontent.com/piacz/piacz/main/DemoPics/2021-05-04%20(14).png',
       ],
       repo: 'https://github.com/piacz/FoodieApp',
     },

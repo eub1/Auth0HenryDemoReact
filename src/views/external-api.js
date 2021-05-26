@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 
+import '../sass/_external-api.scss'
+
 const ExternalApi = () => {
   const [message, setMessage] = useState("");
   const serverUrl = process.env.REACT_APP_SERVER_URL;
@@ -41,7 +43,7 @@ const ExternalApi = () => {
   };
 
   return (
-    <div className="container">
+    <div className="containerAPI">
       <h1>External API</h1>
       <p>
         Use these buttons to call an external API. The protected API call has an
