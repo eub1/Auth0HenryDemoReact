@@ -8,14 +8,13 @@ $pink: #d883b2;
 .main-card{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     padding-top: 20px;
     width: 100%;
-    height: 105vh;
-    margin: auto;
+    height: fit-content;
     margin: 3%;
     border-radius: 20px;
-    align-items: center;
     background: 
     radial-gradient(circle at bottom, $white, transparent 90%),    
     linear-gradient(to top, dodgerblue 0%, transparent 80%),    
@@ -37,14 +36,14 @@ $pink: #d883b2;
         flex-direction: column;
         justify-content: flex-start;
         margin-right: 5%;
-        margin-top: 10px;
-        // margin: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
         width: 700px;
         color: rgb(255, 231, 255)
     }
     .cardPicture {
         margin: auto;
-        height: 600vh;
+        height: fit-content;
         width: 90%;
         img {
           border-radius: 20px;
@@ -56,5 +55,10 @@ $pink: #d883b2;
         margin-top: 30px;
         margin-left: 70%;
         margin-bottom: 1%;
+        font-size: 20px;
+        &:hover{
+            text-decoration: none;
+            color: rgb(173, 17, 17);
+        }
     }
 }

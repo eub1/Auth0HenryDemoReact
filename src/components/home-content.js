@@ -6,7 +6,8 @@ import ProjectCard from './project-card'
 
 import '../sass/_home-content.scss'
 
-const HomeContent = () => (
+const HomeContent = () => {
+  return (
   <div className="next">
     <div className='aboutMe'>
       <h1>Hi, I'm Pía Cherni</h1>
@@ -27,5 +28,6 @@ const HomeContent = () => (
 
   </div>
 );
+}
 
 export default HomeContent;

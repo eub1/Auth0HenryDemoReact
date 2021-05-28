@@ -92,7 +92,8 @@ const Footer = () => (
         <p>
           Rules are JavaScript functions that execute when a user authenticates
           to an application. They run once the authentication process is
-          complete, in this case set the user information to provide location and identify roles.
+          complete, in this case set the user information to provide location, 
+          identify roles and a default profile picture.
         </p>
       </div>
     </div>
