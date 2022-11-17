@@ -10,7 +10,7 @@ const NavBar = () => {
     <div className="nav-container mb-3">
       <div id='navBar' className="navbar navbar-expand navbar-light ">
         <div className="container">
-          {/* <div className="navbar-brand logo" /> */}
+          <div className="navbar-brand logo" />
           <MainNav />
           <AuthNav />
         </div>

@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 
@@ -8,7 +7,7 @@ const LoginButton = () => {
   return (
     <button
       className="btn btn-primary btn-block"
-      onClick={() => loginWithRedirect()}
+      onClick={() => loginWithRedirect({appState: {returnTo: '/profile' }})}
     >
       Log In
     </button>
